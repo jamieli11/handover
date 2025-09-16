@@ -21,7 +21,7 @@ This document provides a list of materials to be handed over for all related wor
 ### Location:
 - **Model files**: 
   - S3 URI `s3://labscubed-dev/labscubedone/cubeone-2.0/labsvision_corpus/Ml_marker_detect/Model_weights/`
-- **Code repository**: `https://github.com/LabsCubed-Inc/ML_marker_detect/tree/dev/jamie`
+- **Code repository**: <https://github.com/LabsCubed-Inc/ML_marker_detect/tree/dev/jamie>
 - **Documentation**: 
     - See repository [README](https://github.com/LabsCubed-Inc/ML_marker_detect/blob/dev/jamie/README.md) for model usage. 
     - For detailed model improvements record, see [here](https://github.com/jamieli11/work-daily-log/issues/4).
@@ -40,7 +40,7 @@ This document provides a list of materials to be handed over for all related wor
 - **Documentation**: User guide and performance analysis
 
 ### Location:
-- **Code repository**: `https://github.com/jamieli11/sam2/tree/dev/jamie`
+- **Code repository**: <https://github.com/jamieli11/sam2/tree/dev/jamie>
 - **Documentation**: See repository [README_LabsCubed](https://github.com/jamieli11/sam2/blob/dev/jamie/README_LabsCubed.md) for model usage. Preliminary performance analysis can be found [here](https://github.com/jamieli11/work-daily-log/issues/3). 
 
 ---
@@ -51,7 +51,7 @@ This document provides a list of materials to be handed over for all related wor
 - **Labsvision Result Analysis Code**: Tools for analyzing and visualizing detection results
 
 ### Location:
-- Analysis tools: `https://github.com/jamieli11/Labsvision_analysis_tools`
+- Analysis tools: <https://github.com/jamieli11/Labsvision_analysis_tools>
 
 ---
 
@@ -63,8 +63,8 @@ This document provides a list of materials to be handed over for all related wor
 - **Installation Guide**: Add Docker building guide for branch release-3.0.9 and branch chevron-cubeten-ml-experimental
 
 ### Location:
-- Weekly review: `https://github.com/jamieli11/work-daily-log/blob/main/Weekly%20Review.md`
-- Technical Documentation: `https://github.com/jamieli11/work-daily-log/issues`
+- Weekly review: <https://github.com/jamieli11/work-daily-log/blob/main/Weekly%20Review.md>
+- Technical Documentation: <https://github.com/jamieli11/work-daily-log/issues>
 - Installation Guide: 
   - branch [`release-3.0.9`](https://github.com/LabsCubed-Inc/labsvision/blob/dev/jamie/release-3.0.9/INSTALL.md)
   - branch [`chevron-cubeten-ml-experimental`](https://github.com/LabsCubed-Inc/labsvision/blob/dev/jamie/chevron-cubeten-ml-experimental/INSTALL.md)
@@ -88,7 +88,7 @@ This document provides a list of materials to be handed over for all related wor
 - Validate results on test dataset
 - Update model training pipeline accordingly
 
-**Code Location**: `https://github.com/LabsCubed-Inc/ML_marker_detect/tree/dev/jamie/losses`
+**Code Location**: <https://github.com/LabsCubed-Inc/ML_marker_detect/tree/dev/jamie/losses>
 
 ### 5.2 [SAM2 Data Cleaner Model Fine-tuning](https://github.com/jamieli11/sam2/blob/dev/jamie/README_LabsCubed.md)
 **Status**: Training code completed, execution pending
@@ -105,4 +105,4 @@ This document provides a list of materials to be handed over for all related wor
 - Execute fine-tuning process with prepared training data
 - Evaluate improved model performance on data cleaning tasks
 
-**Code Location**: `https://github.com/jamieli11/sam2/tree/dev/jamie`
+**Code Location**: <https://github.com/jamieli11/sam2/tree/dev/jamie>
