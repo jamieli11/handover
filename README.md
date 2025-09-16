@@ -1,7 +1,7 @@
 # Handover Documentation
 ## Summary
 
-This document provides a comprehensive handover of all computer vision related work, including ml marker detection model, dataset cleaning code, and data analysis tools for Labsvision.
+This document provides a list of materials to be handed over for all related work, including the ML marker detection model, dataset cleaning code, and data analysis tools for LabsVision.
 
 ---
 
@@ -11,7 +11,7 @@ This document provides a comprehensive handover of all computer vision related w
 - **Model Weights**: Latest trained model weights with optimal performance (pt, ONNX and TensorRT engine models)
 - **Source Code**: Complete codebase with newly implemented features
   - Inference module for running predictions on unlabeled datasets with qualitative visualization of results
-  - Evaluation module for performance assessment
+  - Evaluation module for performance assessment with newly implemented metrics
   - Improved training module with corrected loss calculation and newly added TensorBoard writer for better model monitoring during training
   - Data module for dataset preparation, including dataset information JSON generation code and interactive dataset verification and checking tools
 - **Documentation**: README with setup and usage instructions; model improvements description, results & analysis
@@ -21,7 +21,6 @@ This document provides a comprehensive handover of all computer vision related w
 ### Location:
 - **Model files**: 
   - S3 URI `s3://labscubed-dev/labscubedone/cubeone-2.0/labsvision_corpus/Ml_marker_detect/Model_weights/`
-  - Available formats: PyTorch (.pt), ONNX (.onnx), TensorRT (.engine)
 - **Code repository**: `https://github.com/LabsCubed-Inc/ML_marker_detect/tree/dev/jamie`
 - **Documentation**: 
     - See repository [README](https://github.com/LabsCubed-Inc/ML_marker_detect/blob/dev/jamie/README.md) for model usage. 
@@ -35,7 +34,7 @@ This document provides a comprehensive handover of all computer vision related w
 - **SAM2 Data Cleaner**: Data cleaner based on SAM2 model, including the following newly added code:
   - Data cleaner script
   - Data preparation and quality check code
-  - Single frame model training code files
+  - Single frame model training configurations
 - **Datasets**: 
   - S3 URI `s3://labscubed-dev/labscubedone/cubeone-2.0/labsvision_corpus/Ml_marker_detect/Dataset/`,  [chevron_cleaned_250828.zip](https://labscubed-dev.s3.us-east-2.amazonaws.com/labscubedone/cubeone-2.0/labsvision_corpus/Ml_marker_detect/Dataset/chevron_cleaned_250828.zip) (cleaned from [chevron_cube10_final.zip](https://labscubed-dev.s3.us-east-2.amazonaws.com/labscubedone/cubeone-2.0/labsvision_corpus/Ml_marker_detect/Dataset/chevron_cube10_final.zip) using SAM2 with manual filtering).
 - **Documentation**: User guide and performance analysis
